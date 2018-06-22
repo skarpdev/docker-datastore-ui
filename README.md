@@ -21,9 +21,9 @@ services:
   datastore-ui:
     image: skarpdev/google-datastore-ui:1.0.0
     environment:
-      PROJECT_ID: dsui-local
-      UI_PORT: 8282
-      DATASTORE_ENDPOINT: datastore:8081
+      DSUI_PROJECT_ID: dsui-local
+      DSUI_PORT: 8282
+      DSUI_DATASTORE_ENDPOINT: datastore:8081
     ports:
       - 8282:8282
     depends_on:
