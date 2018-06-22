@@ -1,0 +1,5 @@
+*.md
+*.yml
+Dockerfile
+.git
+.gitignore
